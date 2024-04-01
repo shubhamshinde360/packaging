@@ -91,7 +91,7 @@ module Pkg
           repo: true,
         },
         '9' => {
-          architectures: ['x86_64', 'aarch64'],
+          architectures: ['x86_64', 'aarch64', 'ppc64le'],
           source_architecture: 'SRPMS',
           package_format: 'rpm',
           source_package_formats: ['src.rpm'],
