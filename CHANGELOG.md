@@ -3,6 +3,8 @@
 This changelog adheres to [Keep a CHANGELOG](http://keepachangelog.com/).
 
 ## [Unreleased]
+### Added
+- (PA-4673) Added platform for RedHat 9 (Power9)
 
 ## [0.117.0] - 2024-03-26
 ### Added
