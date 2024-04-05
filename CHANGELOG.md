@@ -6,6 +6,10 @@ This changelog adheres to [Keep a CHANGELOG](http://keepachangelog.com/).
 ### Added
 - (PA-4673) Added platform for RedHat 9 (Power9)
 
+### Fixed
+- (RE-16211) Leave off signing Ips in nightlies. We'll put the GPG-signing remediation back in
+  in a future version.
+
 ## [0.117.0] - 2024-03-26
 ### Added
 - (PA-6027) Add support for Ubuntu 24.04 noble
