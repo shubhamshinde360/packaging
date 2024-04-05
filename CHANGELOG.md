@@ -3,6 +3,8 @@
 This changelog adheres to [Keep a CHANGELOG](http://keepachangelog.com/).
 
 ## [Unreleased]
+
+## [0.118.0] - 2024-04-05
 ### Added
 - (PA-4673) Added platform for RedHat 9 (Power9)
 
@@ -984,7 +986,8 @@ this is a final version.
 
 ## Versions <= 0.5.0 do not have a change log entry
 
-[Unreleased]: https://github.com/puppetlabs/packaging/compare/0.117.0...HEAD
+[Unreleased]: https://github.com/puppetlabs/packaging/compare/0.118.0...HEAD
+[0.118.0]: https://github.com/puppetlabs/packaging/compare/0.117.0...0.118.0
 [0.117.0]: https://github.com/puppetlabs/packaging/compare/0.116.0...0.117.0
 [0.116.0]: https://github.com/puppetlabs/packaging/compare/0.115.0...0.116.0
 [0.115.0]: https://github.com/puppetlabs/packaging/compare/0.114.0...0.115.0
