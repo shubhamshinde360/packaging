@@ -3,6 +3,9 @@
 This changelog adheres to [Keep a CHANGELOG](http://keepachangelog.com/).
 
 ## [Unreleased]
+### Changed
+- (RE-16160) Revive sign/ips.rb so that GPG .asc generation for Solaris packages are handled
+  in a single method.
 
 ## [0.118.0] - 2024-04-05
 ### Added

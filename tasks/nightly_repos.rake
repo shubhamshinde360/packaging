@@ -39,8 +39,7 @@ namespace :pl do
       Pkg::Rpm::Repo.sign_repos('repos')
       Pkg::Deb::Repo.sign_repos('repos', 'Apt repository for signed builds')
       Pkg::Sign::Dmg.sign('repos') unless Dir['repos/apple/**/*.dmg'].empty?
-      ### RE-16211: we should put this back and unify with the code in sign.rake
-      # Pkg::Sign::Ips.sign('repos') unless Dir['repos/solaris/11/**/*.p5p'].empty?
+      Pkg::Sign::Ips.sign('repos') unless Dir['repos/solaris/11/**/*.p5p'].empty?
       Pkg::Sign::Msi.sign('repos') unless Dir['repos/windows/**/*.msi'].empty?
     end
 
