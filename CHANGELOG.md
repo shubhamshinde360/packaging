@@ -7,6 +7,9 @@ This changelog adheres to [Keep a CHANGELOG](http://keepachangelog.com/).
 - (RE-16160) Revive sign/ips.rb so that GPG .asc generation for Solaris packages are handled
   in a single method.
 
+### Removed
+- (maint) deleted obsolete apt_stage_artifacts dependency
+
 ## [0.118.0] - 2024-04-05
 ### Added
 - (PA-4673) Added platform for RedHat 9 (Power9)
