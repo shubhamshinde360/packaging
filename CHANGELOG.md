@@ -3,6 +3,9 @@
 This changelog adheres to [Keep a CHANGELOG](http://keepachangelog.com/).
 
 ## [Unreleased]
+### Added
+- (PA-6261) Added platform for Amazon Linux2 ARM
+
 ### Changed
 - (RE-16160) Revive sign/ips.rb so that GPG .asc generation for Solaris packages are handled
   in a single method.
