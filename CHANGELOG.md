@@ -4,6 +4,7 @@ This changelog adheres to [Keep a CHANGELOG](http://keepachangelog.com/).
 
 ## [Unreleased]
 ### Added
+- (PA-6352) Add Fedora 40 (Intel) to the packaging platform hash
 - (PA-6261) Added platform for Amazon Linux2 ARM
 
 ### Changed
