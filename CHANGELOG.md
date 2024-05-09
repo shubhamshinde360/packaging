@@ -3,6 +3,8 @@
 This changelog adheres to [Keep a CHANGELOG](http://keepachangelog.com/).
 
 ## [Unreleased]
+
+## [0.119.0] - 2024-05-06
 ### Added
 - (PA-6352) Add Fedora 40 (Intel) to the packaging platform hash
 - (PA-6261) Added platform for Amazon Linux2 ARM
@@ -996,7 +998,8 @@ this is a final version.
 
 ## Versions <= 0.5.0 do not have a change log entry
 
-[Unreleased]: https://github.com/puppetlabs/packaging/compare/0.118.0...HEAD
+[Unreleased]: https://github.com/puppetlabs/packaging/compare/0.119.0...HEAD
+[0.119.0]: https://github.com/puppetlabs/packaging/compare/0.118.0...0.119.0
 [0.118.0]: https://github.com/puppetlabs/packaging/compare/0.117.0...0.118.0
 [0.117.0]: https://github.com/puppetlabs/packaging/compare/0.116.0...0.117.0
 [0.116.0]: https://github.com/puppetlabs/packaging/compare/0.115.0...0.116.0
