@@ -3,6 +3,8 @@
 This changelog adheres to [Keep a CHANGELOG](http://keepachangelog.com/).
 
 ## [Unreleased]
+### Added
+- Add Amazon 2 (ARM) packaging platform
 
 ## [0.119.0] - 2024-05-06
 ### Added
