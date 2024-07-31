@@ -4,6 +4,10 @@ This changelog adheres to [Keep a CHANGELOG](http://keepachangelog.com/).
 
 ## [Unreleased]
 
+## [0.121.0] - 2024-07-31
+### Added
+- (RE-16497) Add rexml as a dependency in the gemspec because it is needed by the artifactory gem.
+
 ## [0.120.0] - 2024-06-03
 ### Added
 - Add Amazon 2 (ARM) packaging platform
@@ -1002,7 +1006,8 @@ this is a final version.
 
 ## Versions <= 0.5.0 do not have a change log entry
 
-[Unreleased]: https://github.com/puppetlabs/packaging/compare/0.120.0...HEAD
+[Unreleased]: https://github.com/puppetlabs/packaging/compare/0.121.0...HEAD
+[0.121.0]: https://github.com/puppetlabs/packaging/compare/0.120.0...0.121.0
 [0.120.0]: https://github.com/puppetlabs/packaging/compare/0.119.0...0.120.0
 [0.119.0]: https://github.com/puppetlabs/packaging/compare/0.118.0...0.119.0
 [0.118.0]: https://github.com/puppetlabs/packaging/compare/0.117.0...0.118.0
