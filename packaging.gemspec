@@ -25,6 +25,7 @@ Gem::Specification.new do |gem|
   gem.add_runtime_dependency('google-cloud-storage')
   gem.add_runtime_dependency('rake', ['>= 12.3'])
   gem.add_runtime_dependency('release-metrics')
+  gem.add_runtime_dependency('rexml')
 
   gem.require_path = 'lib'
 
