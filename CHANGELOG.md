@@ -3,6 +3,12 @@
 This changelog adheres to [Keep a CHANGELOG](http://keepachangelog.com/).
 
 ## [Unreleased]
+### Changed
+- (RE-16109) Replace call to s3_repo_sync.sh with s3_repo_sync, the latter being an improved
+  version of the former.
+
+### Removed
+- (maint) Discontinue hand-maintained list of diff links in the CHANGELOG.md file
 
 ## [0.121.0] - 2024-07-31
 ### Added
@@ -1005,133 +1011,3 @@ this is a final version.
  - Removes support for end-of-life platforms.
 
 ## Versions <= 0.5.0 do not have a change log entry
-
-[Unreleased]: https://github.com/puppetlabs/packaging/compare/0.121.0...HEAD
-[0.121.0]: https://github.com/puppetlabs/packaging/compare/0.120.0...0.121.0
-[0.120.0]: https://github.com/puppetlabs/packaging/compare/0.119.0...0.120.0
-[0.119.0]: https://github.com/puppetlabs/packaging/compare/0.118.0...0.119.0
-[0.118.0]: https://github.com/puppetlabs/packaging/compare/0.117.0...0.118.0
-[0.117.0]: https://github.com/puppetlabs/packaging/compare/0.116.0...0.117.0
-[0.116.0]: https://github.com/puppetlabs/packaging/compare/0.115.0...0.116.0
-[0.115.0]: https://github.com/puppetlabs/packaging/compare/0.114.0...0.115.0
-[0.114.0]: https://github.com/puppetlabs/packaging/compare/0.113.0...0.114.0
-[0.113.0]: https://github.com/puppetlabs/packaging/compare/0.112.0...0.113.0
-[0.112.0]: https://github.com/puppetlabs/packaging/compare/0.111.0...0.112.0
-[0.111.0]: https://github.com/puppetlabs/packaging/compare/0.110.1...0.111.0
-[0.110.1]: https://github.com/puppetlabs/packaging/compare/0.110.0...0.110.1
-[0.110.0]: https://github.com/puppetlabs/packaging/compare/0.109.7...0.110.0
-[0.109.7]: https://github.com/puppetlabs/packaging/compare/0.109.6...0.109.7
-[0.109.6]: https://github.com/puppetlabs/packaging/compare/0.109.5...0.109.6
-[0.109.5]: https://github.com/puppetlabs/packaging/compare/0.109.4...0.109.5
-[0.109.4]: https://github.com/puppetlabs/packaging/compare/0.109.3...0.109.4
-[0.109.3]: https://github.com/puppetlabs/packaging/compare/0.109.2...0.109.3
-[0.109.2]: https://github.com/puppetlabs/packaging/compare/0.109.1...0.109.2
-[0.109.1]: https://github.com/puppetlabs/packaging/compare/0.109.0...0.109.1
-[0.109.0]: https://github.com/puppetlabs/packaging/compare/0.108.2...0.109.0
-[0.108.2]: https://github.com/puppetlabs/packaging/compare/0.108.1...0.108.2
-[0.108.1]: https://github.com/puppetlabs/packaging/compare/0.108.0...0.108.1
-[0.108.0]: https://github.com/puppetlabs/packaging/compare/0.107.2...0.108.0
-[0.107.2]: https://github.com/puppetlabs/packaging/compare/0.107.1...0.107.2
-[0.107.1]: https://github.com/puppetlabs/packaging/compare/0.107.0...0.107.1
-[0.107.0]: https://github.com/puppetlabs/packaging/compare/0.106.3...0.107.0
-[0.106.3]: https://github.com/puppetlabs/packaging/compare/0.106.2...0.106.3
-[0.106.2]: https://github.com/puppetlabs/packaging/compare/0.106.1...0.106.2
-[0.106.1]: https://github.com/puppetlabs/packaging/compare/0.106.0...0.106.1
-[0.106.0]: https://github.com/puppetlabs/packaging/compare/0.105.0...0.106.0
-[0.105.0]: https://github.com/puppetlabs/packaging/compare/0.104.0...0.105.0
-[0.104.0]: https://github.com/puppetlabs/packaging/compare/0.103.0...0.104.0
-[0.103.0]: https://github.com/puppetlabs/packaging/compare/0.102.0...0.103.0
-[0.102.0]: https://github.com/puppetlabs/packaging/compare/0.101.0...0.102.0
-[0.101.0]: https://github.com/puppetlabs/packaging/compare/0.100.0...0.101.0
-[0.100.0]: https://github.com/puppetlabs/packaging/compare/0.99.81...0.100.0
-[0.99.81]: https://github.com/puppetlabs/packaging/compare/0.99.80...0.99.81
-[0.99.80]: https://github.com/puppetlabs/packaging/compare/0.99.79...0.99.80
-[0.99.79]: https://github.com/puppetlabs/packaging/compare/0.99.78...0.99.79
-[0.99.78]: https://github.com/puppetlabs/packaging/compare/0.99.77...0.99.78
-[0.99.77]: https://github.com/puppetlabs/packaging/compare/0.99.76...0.99.77
-[0.99.76]: https://github.com/puppetlabs/packaging/compare/0.99.75...0.99.76
-[0.99.75]: https://github.com/puppetlabs/packaging/compare/0.99.74...0.99.75
-[0.99.74]: https://github.com/puppetlabs/packaging/compare/0.99.73...0.99.74
-[0.99.73]: https://github.com/puppetlabs/packaging/compare/0.99.72...0.99.73
-[0.99.72]: https://github.com/puppetlabs/packaging/compare/0.99.71...0.99.72
-[0.99.71]: https://github.com/puppetlabs/packaging/compare/0.99.70...0.99.71
-[0.99.70]: https://github.com/puppetlabs/packaging/compare/0.99.69...0.99.70
-[0.99.69]: https://github.com/puppetlabs/packaging/compare/0.99.68...0.99.69
-[0.99.68]: https://github.com/puppetlabs/packaging/compare/0.99.67...0.99.68
-[0.99.67]: https://github.com/puppetlabs/packaging/compare/0.99.66...0.99.67
-[0.99.66]: https://github.com/puppetlabs/packaging/compare/0.99.65...0.99.66
-[0.99.65]: https://github.com/puppetlabs/packaging/compare/0.99.64...0.99.65
-[0.99.64]: https://github.com/puppetlabs/packaging/compare/0.99.63...0.99.64
-[0.99.63]: https://github.com/puppetlabs/packaging/compare/0.99.62...0.99.63
-[0.99.62]: https://github.com/puppetlabs/packaging/compare/0.99.61...0.99.62
-[0.99.61]: https://github.com/puppetlabs/packaging/compare/0.99.60...0.99.61
-[0.99.60]: https://github.com/puppetlabs/packaging/compare/0.99.59...0.99.60
-[0.99.59]: https://github.com/puppetlabs/packaging/compare/0.99.58...0.99.59
-[0.99.58]: https://github.com/puppetlabs/packaging/compare/0.99.57...0.99.58
-[0.99.57]: https://github.com/puppetlabs/packaging/compare/0.99.56...0.99.57
-[0.99.56]: https://github.com/puppetlabs/packaging/compare/0.99.55...0.99.56
-[0.99.55]: https://github.com/puppetlabs/packaging/compare/0.99.54...0.99.55
-[0.99.54]: https://github.com/puppetlabs/packaging/compare/0.99.53...0.99.54
-[0.99.53]: https://github.com/puppetlabs/packaging/compare/0.99.52...0.99.53
-[0.99.52]: https://github.com/puppetlabs/packaging/compare/0.99.51...0.99.52
-[0.99.51]: https://github.com/puppetlabs/packaging/compare/0.99.50...0.99.51
-[0.99.50]: https://github.com/puppetlabs/packaging/compare/0.99.49...0.99.50
-[0.99.49]: https://github.com/puppetlabs/packaging/compare/0.99.48...0.99.49
-[0.99.48]: https://github.com/puppetlabs/packaging/compare/0.99.47...0.99.48
-[0.99.47]: https://github.com/puppetlabs/packaging/compare/0.99.46...0.99.47
-[0.99.46]: https://github.com/puppetlabs/packaging/compare/0.99.45...0.99.46
-[0.99.45]: https://github.com/puppetlabs/packaging/compare/0.99.44...0.99.45
-[0.99.44]: https://github.com/puppetlabs/packaging/compare/0.99.43...0.99.44
-[0.99.43]: https://github.com/puppetlabs/packaging/compare/0.99.42...0.99.43
-[0.99.42]: https://github.com/puppetlabs/packaging/compare/0.99.41...0.99.42
-[0.99.41]: https://github.com/puppetlabs/packaging/compare/0.99.40...0.99.41
-[0.99.40]: https://github.com/puppetlabs/packaging/compare/0.99.39...0.99.40
-[0.99.39]: https://github.com/puppetlabs/packaging/compare/0.99.38...0.99.39
-[0.99.38]: https://github.com/puppetlabs/packaging/compare/0.99.37...0.99.38
-[0.99.37]: https://github.com/puppetlabs/packaging/compare/0.99.36...0.99.37
-[0.99.36]: https://github.com/puppetlabs/packaging/compare/0.99.35...0.99.36
-[0.99.35]: https://github.com/puppetlabs/packaging/compare/0.99.34...0.99.35
-[0.99.34]: https://github.com/puppetlabs/packaging/compare/0.99.33...0.99.34
-[0.99.33]: https://github.com/puppetlabs/packaging/compare/0.99.32...0.99.33
-[0.99.32]: https://github.com/puppetlabs/packaging/compare/0.99.31...0.99.32
-[0.99.31]: https://github.com/puppetlabs/packaging/compare/0.99.30...0.99.31
-[0.99.30]: https://github.com/puppetlabs/packaging/compare/0.99.29...0.99.30
-[0.99.29]: https://github.com/puppetlabs/packaging/compare/0.99.28...0.99.29
-[0.99.28]: https://github.com/puppetlabs/packaging/compare/0.99.27...0.99.28
-[0.99.27]: https://github.com/puppetlabs/packaging/compare/0.99.26...0.99.27
-[0.99.26]: https://github.com/puppetlabs/packaging/compare/0.99.25...0.99.26
-[0.99.25]: https://github.com/puppetlabs/packaging/compare/0.99.24...0.99.25
-[0.99.24]: https://github.com/puppetlabs/packaging/compare/0.99.23...0.99.24
-[0.99.23]: https://github.com/puppetlabs/packaging/compare/0.99.22...0.99.23
-[0.99.22]: https://github.com/puppetlabs/packaging/compare/0.99.21...0.99.22
-[0.99.21]: https://github.com/puppetlabs/packaging/compare/0.99.20...0.99.21
-[0.99.20]: https://github.com/puppetlabs/packaging/compare/0.99.19...0.99.20
-[0.99.19]: https://github.com/puppetlabs/packaging/compare/0.99.18...0.99.19
-[0.99.18]: https://github.com/puppetlabs/packaging/compare/0.99.17...0.99.18
-[0.99.17]: https://github.com/puppetlabs/packaging/compare/0.99.16...0.99.17
-[0.99.16]: https://github.com/puppetlabs/packaging/compare/0.99.15...0.99.16
-[0.99.15]: https://github.com/puppetlabs/packaging/compare/0.99.14...0.99.15
-[0.99.14]: https://github.com/puppetlabs/packaging/compare/0.99.13...0.99.14
-[0.99.13]: https://github.com/puppetlabs/packaging/compare/0.99.12...0.99.13
-[0.99.12]: https://github.com/puppetlabs/packaging/compare/0.99.11...0.99.12
-[0.99.11]: https://github.com/puppetlabs/packaging/compare/0.99.10...0.99.11
-[0.99.10]: https://github.com/puppetlabs/packaging/compare/0.99.9...0.99.10
-[0.99.9]: https://github.com/puppetlabs/packaging/compare/0.99.8...0.99.9
-[0.99.8]: https://github.com/puppetlabs/packaging/compare/0.99.7...0.99.8
-[0.99.7]: https://github.com/puppetlabs/packaging/compare/0.99.6...0.99.7
-[0.99.6]: https://github.com/puppetlabs/packaging/compare/0.99.5...0.99.6
-[0.99.5]: https://github.com/puppetlabs/packaging/compare/0.99.4...0.99.5
-[0.99.4]: https://github.com/puppetlabs/packaging/compare/0.99.3...0.99.4
-[0.99.3]: https://github.com/puppetlabs/packaging/compare/0.99.2...0.99.3
-[0.99.2]: https://github.com/puppetlabs/packaging/compare/0.99.1...0.99.2
-[0.99.1]: https://github.com/puppetlabs/packaging/compare/0.99.0...0.99.1
-[0.99.0]: https://github.com/puppetlabs/packaging/compare/0.6.2...0.99.0
-[0.6.8]: https://github.com/puppetlabs/packaging/compare/0.6.7...0.6.8
-[0.6.7]: https://github.com/puppetlabs/packaging/compare/0.6.6...0.6.7
-[0.6.6]: https://github.com/puppetlabs/packaging/compare/0.6.5...0.6.6
-[0.6.5]: https://github.com/puppetlabs/packaging/compare/0.6.4...0.6.5
-[0.6.4]: https://github.com/puppetlabs/packaging/compare/0.6.3...0.6.4
-[0.6.3]: https://github.com/puppetlabs/packaging/compare/0.6.2...0.6.3
-[0.6.2]: https://github.com/puppetlabs/packaging/compare/0.6.1...0.6.2
-[0.6.1]: https://github.com/puppetlabs/packaging/compare/0.6.0...0.6.1
-[0.6.0]: https://github.com/puppetlabs/packaging/compare/0.5.0...0.6.0
