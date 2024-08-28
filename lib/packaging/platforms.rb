@@ -280,6 +280,11 @@ module Pkg
           architectures: ['x64'],
           package_format: 'msi',
           repo: false,
+        },
+        '2016' => {
+          architectures: ['x64'],
+          package_format: 'msi',
+          repo: false,
         }
       },
     }
