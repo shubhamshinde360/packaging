@@ -37,7 +37,11 @@ module Pkg::Paths
     puts "path = #{path}"
     puts "Pkg::Platforms.versions_for_platform(platform) = #{Pkg::Platforms.versions_for_platform(platform)}"
     puts "*********************/////"
-    version = '2012' if platform =~ /^windows.*$/
+    if path =~ /windowsfips-2016/
+      version = 2016
+    elsif platform =~ /^windows.*$/
+      version = '2012' 
+    end
 
     version ||= Pkg::Platforms.versions_for_platform(platform).find { |v| path =~ /#{platform}(\/|-)?#{v}/ }
 
