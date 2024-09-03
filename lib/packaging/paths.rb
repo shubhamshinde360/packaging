@@ -34,6 +34,7 @@ module Pkg::Paths
 
     puts "*********************"
     puts "platform = #{platform}"
+    puts "path = #{path}"
     puts "Pkg::Platforms.versions_for_platform(platform) = #{Pkg::Platforms.versions_for_platform(platform)}"
     puts "*********************/////"
     version = '2012' if platform =~ /^windows.*$/
