@@ -32,6 +32,10 @@ module Pkg::Paths
       platform, version = Pkg::Platforms.codename_to_platform_version(codename)
     end
 
+    puts "*********************"
+    puts "platform = #{platform}"
+    puts "Pkg::Platforms.versions_for_platform(platform) = #{Pkg::Platforms.versions_for_platform(platform)}"
+    puts "*********************/////"
     version = '2012' if platform =~ /^windows.*$/
 
     version ||= Pkg::Platforms.versions_for_platform(platform).find { |v| path =~ /#{platform}(\/|-)?#{v}/ }
